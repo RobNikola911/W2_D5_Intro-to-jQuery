@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic building blocks in JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div>
+    <pre id="fox-1">Velox</pre>
+    <pre id="fox-2">Zerda</pre>
+    <pre id="fox-3">Lagopus</pre>
+</div>
+<main>
+    <p class="red">North</p>
+    <p class="yellow">East</p>
+    <p class="lightblue" id="third">South</p>
+    <p class="blue" id="fourth">West</p>
+  </main>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="scripts.js"></script>
+
+    <script>
+        $(document).ready(function() {
+
+            $("#fox-1").text("Macrotis");
+            $('#fox-2').css("border-color","purple");
+            $("pre").css("background", "yellow");
+            $(".red").css("background", "purple");
+            $(".yellow").text("Eastern");
+
+        });
+    </script>
+
+</body>
+</html>

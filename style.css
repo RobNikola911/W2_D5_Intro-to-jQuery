@@ -1,0 +1,43 @@
+ pre {
+    color: #015668;
+    background: #0D91A1;
+    width: 100px;
+    height: 50px;
+    margin: 10px 20px 20px 400px;
+    padding: 10px 80px 10px 10px;
+    border: 2px solid #7DCE94;
+    font-family: 'Galada', cursive;
+  }
+
+  main {
+    border: 5px solid #4285f4;
+    width: 200px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+    font-family: 'Galada', cursive;
+    position: absolute;
+  }
+  
+  p {
+    margin: 0px;
+    padding: 30px;
+  }
+  
+  .red {
+    background: #E67676;
+  }
+  
+  .yellow {
+    background: #F2F062;
+  }
+  
+  .lightblue {
+    background: #A9E6E6;
+  }
+  
+  .blue {
+    background: #7692E4;
+  }
+  

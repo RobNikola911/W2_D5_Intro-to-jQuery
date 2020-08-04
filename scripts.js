@@ -1,6 +1,21 @@
+
+    $("#fox-1").text("Macrotis");
+    $('#fox-2').css("border-color","purple");
+    $("pre").css("background", "yellow");
+    $(".red").css("background", "purple");
+    $(".yellow").text("Eastern");
+
+
 let color = "purple";
 let number = 10;
 let word = "cool";
+
+
+if (color === "purple") {
+    $(".red").css("background", "purple");
+}
+
+$(".yellow").text("Second");
 
 if (
     number > 100
@@ -20,7 +35,7 @@ if (word === "cool") {
 if (
     word === "cool"
 ) {
-   console.log("Change the text to Power of DOM of the third") 
+    $("#third").text("Power of DOM");
 } else {
-    console.log("change the fourth one.")
+    $("#fourth").text("Power of DOM");
 }
